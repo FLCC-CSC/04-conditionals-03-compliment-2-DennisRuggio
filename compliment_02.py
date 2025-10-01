@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dennis Ruggio
+# DATE: 10/1/25
+# BRIEF DESCRIPTION:  compliment_02.py lab
 
 
 
@@ -15,7 +15,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
 
+def compliment():
+    user_answer = input('Would you like a compliment? ')
+
+    if user_answer == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+
+    else:
+        print('No compliment for you!')
+        print('Thank you for playing.')   
+
+main()
 
 
 
@@ -71,6 +85,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
+I thought I might, but it looks like the original code from the first compliment lab worked just with one additional print line!
 
 
 
